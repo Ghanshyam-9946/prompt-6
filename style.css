@@ -1,0 +1,182 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.mainpage{
+    background-image: url(370809882dcaf3eb3f1a5264bc341c2f.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav{
+    background-color: rgba(0, 0, 0, 0.815);
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 5%;
+}
+.nav h4 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.nav input {
+    width: 400px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.699);
+    border: none;
+    color: grey;
+    
+}
+.anc{
+    margin-left: 300px;
+}
+
+.anc a{
+    color: white;
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.699);
+    width: 90%;
+    height: 75%;
+    margin-left: 12%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+   
+}
+
+.cont-left {
+    /* background-color: red; */
+  height: 100%;
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    padding: 2%;
+}
+
+span {
+    color: blue;
+}
+
+.cont-left p {
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.cont-left h3 {
+    margin-top: 7px;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+
+}
+.button {
+    margin-top: 15px;
+}
+
+.button button {
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    
+}
+
+#bt {
+    background-color: rgba(20, 82, 237, 0.845);
+    color: white;
+    border: none;
+    margin-left: 40px;
+}
+
+.cont-right {
+    /* background-color: red; */
+  height: 100%;
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    padding: 2%;
+}
+
+
+
+.bottom {
+    margin-top: 5%;
+    width: 80%;
+    height: 80%;
+    margin-left: 20%;
+  }
+  
+  .right > .bottom > input {
+    margin-bottom: 12px;
+    border: none;
+    border-bottom: 1.5px solid gray;
+    padding: 5px 150px;
+    padding-left: 0px;
+    font-size: 12px;
+  }
+  
+  .bottom >label{
+    font-size: 12px;
+  }
+  
+  
+  .a {
+      width: 70%;
+      height: 15%;
+      font-size: 12px;
+      margin-top: 10px;
+      display: flex; 
+  }
+  
+  .a > .lb{ 
+      width: 50%;
+      height: 100%;
+      padding-top: 0px;
+  }
+  
+  .lb > input {
+    margin-bottom: 10px;
+  }
+  
+  .a > .rb{ 
+      width: 50%;
+      height: 100%;
+  }
+  
+  .rb > input {
+    margin-bottom: 10px;
+  }
+  
+  .bottom > button {
+    margin-top: 18px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 12px;
+    border: none;
+    color: white;
+    background-color: black;
+  }
